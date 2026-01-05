@@ -6,6 +6,13 @@ from pathlib import Path
 import io
 import webbrowser
 import threading
+import joblib
+
+from sklearn.compose import ColumnTransformer
+from sklearn.preprocessing import OneHotEncoder, StandardScaler
+from sklearn.pipeline import Pipeline
+
+preprocessor = joblib.load("preprocessor.joblib")
 
 # ================= APP INIT =================
 app = Flask(__name__)

@@ -7,6 +7,7 @@ flask
 notebook
 python-dotenv
 streamlit
-
 scikit-learn==1.3.2
 joblib==1.3.2
+
+gunicorn

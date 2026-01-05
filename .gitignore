@@ -35,11 +35,6 @@ env/
 __pycache__/
 *.ipynb
 logs/
-artifacts/raw/
-artifacts/unseen_test/
-artifacts/transformed/train.csv
-artifacts/transformed/test.csv
-prediction/models/archive/
 
 Dockerfile
 .dockerignore
